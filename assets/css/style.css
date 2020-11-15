@@ -23,18 +23,6 @@ p {
 h2{
     display: inline
 }
-/* FLOATING */
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 /* HEADER */
 
 header {
@@ -75,7 +63,8 @@ header nav ul li {
 
 .banner {
    position: relative;  
-    margin-bottom: 20px;
+    margin-bottom:20px;
+    
  
 }
 .banner img{
@@ -107,6 +96,17 @@ main {
 .main-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+/* FLOATING - MAIN -SECTION */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /* ASIDE -SECTIONS  */
